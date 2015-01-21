@@ -1,37 +1,134 @@
+body{
+	background:url("../img/zwartevilt/zwartevilt.png");
+}
+.container {
+	width:942px;
+	height:942px;
+	background: url("../img/symphony/symphony.png");
+	padding: 4em;
+	border: 10px #ADADAD solid;
+	margin-right: 15em;
+	margin-left:8em;
+	margin-bottom:2em;
+}
+
+
+
+
+h5{
+	color:#ADADAD;
+	font-family: 'Montserrat', sans-serif;
+	font-size:1em;
+
+}
+
+
+em{
+	font-family:'Montserrat', sans-serif; 
+	color:#000000;
+	font-weight: bold
+}
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 6em;
+	color:#1D6D69;
+}
+h2,h3{
+	font-family: 'Montserrat', sans-serif;
+	color:#994CD1;
+}
+
+p{
+	font-family: 'Slabo 27px', serif;
+	color:black;
+	font-size: 6em
+	font-style: bold;
+
+}
+li{
+	font-family: 'Slabo 27px', serif;
+}
+h4{
+	font-family:'Slabo 27px', serif;
+	font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+
 /* Set Your Own Margin & Padding */
 h2, h3, p {
-	margin: 0;
+	margin: 2px 0;
 }
 
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	margin: 20px 20px;
+
 }
 
 .color-1,
 .color-2,
 .color-3,
+.color-4,
+.color-5,
 .pattern-1,
 .pattern-2,
 .pattern-3, 
 .imagery-1,
 .imagery-2,
 .imagery-3 {
-	border: 1px solid #000;
+	border: 3px solid #000;
 	float: left;
 	margin: 0 10px;
-	height: 50px;
+	height: 113px;
 	width: 50px;
 }
 
 /*style tile for Loralee Gentry*/
 .color-1{
-	background: orange;
+	background:#424242; 
 }
 .color-2{
-	background: green;
+	background: #ADADAD;
+}
+.color-3{
+	background: #1D6D69;
+}
+.color-4{
+	background:#70B7FF;
+}
+.color-5{
+	background: #994CD1;
 }
 
+.imagery-1{
+	background: url("../img/old_moon/old_moon.png") no-repeat;
+}
+.imagery-2{
+	background: url("../img/upfeathers/upfeathers.png") no-repeat;
+}
+.imagery-3{
+	background: url("../img/stardust/stardust.png") no-repeat;
+
+}
+
+.pattern-1{
+	background: url("../img/zwartevilt/zwartevilt.png") no-repeat;
+}
+.pattern-2{
+	background: url("../img/symphony/symphony.png") no-repeat;
+}
+.pattern-3{
+	background: url("../img/washi/washi.png")no-repeat;
+}
 
 
 /* Show Grid */
