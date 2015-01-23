@@ -8,3 +8,32 @@
 	color:orange;
 	font-size:4em;
 }
+.balance h2{
+	color:orange;
+	font-size:4em;
+}
+.balance h3{
+	color:red;
+	
+}
+
+/*clubs*/
+.clubs h1{
+	color:teal;
+	size:2em;
+
+}
+.clubs .ui.avatar.image{
+	width:4.5em;
+	height:4.5em;
+	
+}
+
+.student-employment h1{
+	color:red;
+	size:3em;
+}
+
+.student-employment .description{
+	color:red;
+}
